@@ -44,7 +44,7 @@ const SignIn = () => {
    <div>
     <h1 className='text-[#000] font-bold py-3 text-4xl font-mont'>Sign In</h1>
     <h4 className='text-[#000] font-lato '>sign in to your account</h4>
-    <div className='flex py-3 space-x-5'>
+    <div className='flex py-3 mx-auto space-x-5'>
     <button className='shadow-md py-1 px-7 flex font-thin items-center text-[#9999] rounded-lg'> <img src={Google} className='mr-2' /> Sign in with Google</button>
     <button className='shadow-md py-1 px-7 flex items-center font-thin text-[#9999] rounded-lg'> <FaApple className='mr-2' />  in with Apple</button>
 </div>
@@ -88,13 +88,13 @@ const SignIn = () => {
       <img className='m-5' src={logo} style={{ width: '35px' }} alt='mobile icon'/>
       <h3 className='flex items-center  font-mont text-white  text-2xl'>Base</h3>
       </div>
-      {/* sign in section for mobile devices */}
+      {/* sign in section for mobile devices */}  
       <div>
        <div className='px-7'>
        <div  className='mt-10'>
           <h1 className='text-[#000000] text-3xl font-mont font-semibold'>Sign In</h1>
           <p className='text-[#000] font-lato py-2' >Sign in to your account</p>
-          <div className='flex pt-8 space-x-10'>
+          <div className='flex pt-8 mx-auto justify-between'>
     <button className='flex shadow-md rounded-lg  text-[#9999] py-1 justify-center items-center px-3' > 
       <img src={Google} className='' /> 
      <span className='ml-1 text-[12px]'>Sign in with Google  </span>
@@ -104,7 +104,7 @@ const SignIn = () => {
      <span className='ml-1 text-[12px]'> in with Apple </span>
       </button>
 </div>
-<div class="w-[300px] py-10 mx-auto mt-8 p-5 bg-white rounded-lg shadow-lg">
+<div class="max-w-[360px] py-10 mx-auto mt-8 p-5 bg-white rounded-lg shadow-lg">
   
   <form>
       <div class="mb-4 ">

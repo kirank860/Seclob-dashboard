@@ -16,7 +16,7 @@ const Sheetone = () => {
     <div className={`w-[330px] sm:w-[350px] mx-auto md:w-[480px] lg:w-[550px] rounded-md h-[300px] bg-[#fff] ${isUploadedRoute ? 'hidden' : ''}`}>
   
       <div className="flex items-center h-full justify-center">
-        <div className="items-center justify-center flex">
+        <div className="items-center justify-center flex ">
           <div>
             <img className="mx-auto" src={excel} alt="sheet" />
             {isUploadRoute && (
