@@ -1,6 +1,8 @@
 "In this dashboard i have used react as an front-end library and for styling as an tailwindcss"
 its also responsive for mobile devices
 click here .... https://seclob-dashboard-git-main-kirank860.vercel.app/
+i have two folders in the Src one is the assets for keeing the imgs and icons..., another as an components for keeping the component
+and a separate two navbars in the src one for web and another for mobile devices
   
 # Getting Started with Create React App
 
