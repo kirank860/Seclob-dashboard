@@ -1,6 +1,6 @@
 "In this dashboard i have used react as an front-end library and for styling as an tailwindcss"
 its also responsive for mobile devices
-# click here .... https://seclob-dashboard-git-main-kirank860.vercel.app/
+click here .... https://seclob-dashboard-git-main-kirank860.vercel.app/
   
 # Getting Started with Create React App
 
