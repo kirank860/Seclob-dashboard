@@ -13,7 +13,7 @@ const Sheetone = () => {
 
   return (
     <>
-    <div className={` sm:w-[350px] md:w-[480px] lg:w-[550px] rounded-md h-[300px] bg-[#fff] ${isUploadedRoute ? 'hidden' : ''}`}>
+    <div className={`w-[330px] sm:w-[350px] md:w-[480px] lg:w-[550px] rounded-md h-[300px] bg-[#fff] ${isUploadedRoute ? 'hidden' : ''}`}>
   
       <div className="flex items-center h-full justify-center">
         <div className="items-center justify-center flex">
@@ -70,7 +70,7 @@ const Sheetone = () => {
     </div>
     {isUploadedRoute && (
       <div className="w-full">
- <img  src={Uploaded} alt="refresh" className="mx-auto mt-[-10px]" />
+ <img   src={Uploaded} alt="refresh" className="mx-auto mt-[-10px]" />
    <Uploads/>
       </div>
     )}

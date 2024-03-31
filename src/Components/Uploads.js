@@ -8,9 +8,9 @@ const Uploads = () => {
       };
     
   return (
-    <div className="mt-[200px] ml-16">
+    <div className="mt-[200px] ml-16 overflow-hidden">
       <h1 className="text-2xl text-black">Uploads</h1>
-      <div className="w-[70rem] mt-10 py-5 px-1 rounded-md flex justify-center items-center bg-[#F5F5F5] h-auto">
+      <div className="w-[70rem] mt-10 py-5 px-1 rounded-md flex justify-center items-center bg-[#F5F5F5] h-auto overflow-x-scroll">
         {/* box */}
         <div className="w-full block px-2 py-0 ">
            <div className="flex justify-around pb-5">

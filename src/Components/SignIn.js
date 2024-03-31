@@ -91,7 +91,7 @@ const SignIn = () => {
       {/* sign in section for mobile devices */}
       <div>
        <div className='px-7'>
-       <div  className='mt-5'>
+       <div  className='mt-10'>
           <h1 className='text-[#000000] text-3xl font-mont font-semibold'>Sign In</h1>
           <p className='text-[#000] font-lato py-2' >Sign in to your account</p>
           <div className='flex pt-8 space-x-10'>
