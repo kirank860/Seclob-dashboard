@@ -45,21 +45,21 @@ const SignIn = () => {
     <h1 className='text-[#000] font-bold py-3 text-4xl font-mont'>Sign In</h1>
     <h4 className='text-[#000] font-lato '>sign in to your account</h4>
     <div className='flex py-3 mx-auto space-x-5'>
-    <button className='shadow-md py-1 px-7 flex font-thin items-center text-[#9999] rounded-lg'> <img src={Google} className='mr-2' /> Sign in with Google</button>
-    <button className='shadow-md py-1 px-7 flex items-center font-thin text-[#9999] rounded-lg'> <FaApple className='mr-2' />  in with Apple</button>
+    <button className='bg-[#ffffff] py-1 px-7 flex font-thin items-center text-[#9999] rounded-lg'> <img src={Google} className='mr-2' /> Sign in with Google</button>
+    <button className='bg-[#ffffff] py-1 px-7 flex items-center font-thin text-[#9999] rounded-lg'> <FaApple className='mr-2' />  in with Apple</button>
 </div>
 
    </div>
-   <div class="w-[400px] py-10 mx-auto mt-8 p-5 bg-white rounded-lg shadow-lg">
+   <div class="w-[400px] py-10 mx-auto mt-8 p-5 bg-[#FFFFFF]  rounded-xl">
   
     <form>
         <div class="mb-4 ">
             <label for="email" class="block text-sm font-medium text-gray-700">Email address</label>
-            <input type="email" id="email" name="email" class="mt-1 block w-full px-3 py-2 border border-none  border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm bg-[#EAEAEA]" placeholder='yours@gmail.com' required/>
+            <input type="email" id="email" name="email" class="mt-1 block w-full px-3 py-2 border border-none  border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500  bg-[#F5F5F5]" placeholder='yours@gmail.com' required/>
         </div>
         <div class="mb-4">
             <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
-            <input type="password" id="password" name="password" class="mt-1 block w-full px-3 py-2 border border-none border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm bg-[#EAEAEA]"  required/>
+            <input type="password" id="password" name="password" class="mt-1 block w-full px-3 py-2 border border-none border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500  bg-[#EAEAEA]"  required/>
         </div>
         <div class="flex justify-between items-center mb-4">
             <a href="#" class="text-sm text-blue-600 hover:underline">Forgot Password?</a>
@@ -95,21 +95,21 @@ const SignIn = () => {
           <h1 className='text-[#000000] text-3xl font-mont font-semibold'>Sign In</h1>
           <p className='text-[#000] font-lato py-2' >Sign in to your account</p>
           <div className='flex pt-8 mx-auto justify-between'>
-    <button className='flex shadow-md rounded-lg  text-[#9999] py-1 justify-center items-center px-3' > 
+    <button className='flex bg-[#ffffff] rounded-lg  text-[#9999] py-1 justify-center items-center px-3' > 
       <img src={Google} className='' /> 
      <span className='ml-1 text-[12px]'>Sign in with Google  </span>
       </button>
-      <button className='flex shadow-md rounded-lg text-[#9999]  py-1 justify-center items-center px-5' > 
+      <button className='flex bg-[#ffffff]  rounded-lg text-[#9999]  py-1 justify-center items-center px-5' > 
       <FaApple />
      <span className='ml-1 text-[12px]'> in with Apple </span>
       </button>
 </div>
-<div class="max-w-[360px] py-10 mx-auto mt-8 p-5 bg-white rounded-lg shadow-lg">
+<div class="max-w-[360px] py-10 mx-auto mt-8 p-5 bg-[#FFFFFF] rounded-xl ">
   
   <form>
       <div class="mb-4 ">
           <label for="email" class="block text-sm font-medium text-gray-700">Email address</label>
-          <input type="email" id="email" name="email" class="mt-1 block w-full px-3 py-2 border border-none  border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm bg-[#EAEAEA]" placeholder='yours@gmail.com' required/>
+          <input type="email" id="email" name="email" class="mt-1 block w-full px-3 py-2 border border-none  border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm bg-[#F5F5F5]" placeholder='yours@gmail.com' required/>
       </div>
       <div class="mb-4">
           <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
@@ -121,7 +121,7 @@ const SignIn = () => {
       </div>
       <div className=''>
     <Link to='/upload'>
-      <button type="submit" className="inline-block bg-[#605BFF] text-white px-4 py-2 w-full font-semibold rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+      <button type="submit" className="cursor-pointer inline-block bg-[#605BFF] text-white px-4 py-2 w-full font-semibold rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
         Sign In
       </button>
     </Link>

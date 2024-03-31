@@ -46,7 +46,7 @@ const MobileNavbar = () => {
       </div>
       {/* menu bar toggle */}
       {isMenuOpen && (
-    <div className="w-[350px] absolute top-0 left-0 h-screen bg-gray-50 rounded-tr-3xl rounded-br-3xl animate-fadeInRight transform translatex(-180px) transition-transform duration-50 ease-in-out">
+    <div className="w-[350px] absolute top-0 left-0 h-screen bg-gray-50 rounded-tr-3xl rounded-br-3xl animate-fadeInRight transform translatex(-180px) transition-transform duration-1000 ease-in-out">
 
           <div className="flex justify-between mt-8">
             <img
@@ -59,11 +59,13 @@ const MobileNavbar = () => {
           </div>
           <div className=" px-7 mt-10 ">
             <ul className=" mt-5">
-              <li className="flex">
+           <Link to='/'>
+           <li className="flex">
                 {" "}
                 <img src={dashboard} alt="icon" />
                 <span className="ml-3 py-5"> Dashboard </span>
               </li>
+           </Link>
               <li className="flex">
                 {" "}
                 <img src={upload} alt="icon" />
