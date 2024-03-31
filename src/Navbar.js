@@ -4,7 +4,7 @@ import profile from "./assets/profile.svg"
 import Sheetone from "./Components/Sheetone"
 const Navbar = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full h-screen'>
     <nav className='flex flex-wrap justify-between items-center m-10'>
       <div>
         <h1 className='text-[#000000] text-2xl'>Upload CSV</h1>
