@@ -8,9 +8,10 @@ const Uploads = () => {
       };
     
   return (
-    <div className="mt-[200px] ml-16 overflow-hidden">
+    <div className="mt-[50px]  lg:mt-[200px] pb-20 lg:ml-16 md:ml-16 sm:ml-16 ">
       <h1 className="text-2xl text-black">Uploads</h1>
-      <div className="w-[70rem] mt-10 py-5 px-1 rounded-md flex justify-center items-center bg-[#F5F5F5] h-auto overflow-x-scroll">
+      <div className="overflow-auto">
+      <div className="w-[70rem] mt-10  py-5 sm:py-5 sm:px-1 lg:py-5 lg:px-1 md:py-5 md:px-1 rounded-md flex justify-center items-center bg-[#f9f7f7] h-auto ">
         {/* box */}
         <div className="w-full block px-2 py-0 ">
            <div className="flex justify-around pb-5">
@@ -118,7 +119,7 @@ const Uploads = () => {
         </div>
         
       </div>
-      
+      </div>
     </div>
   );
 };

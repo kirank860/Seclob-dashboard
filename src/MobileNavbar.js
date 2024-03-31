@@ -26,12 +26,14 @@ const MobileNavbar = () => {
       <div className="flex px-7 flex-wrap justify-between items-center ">
         <div className="flex items-center my-8 justify-center">
           <img src={burger} alt="hamburger" onClick={toggleMenu} />
-     <Link to='/'>     <img
-            className="ml-5"
-            src={logo}
-            style={{ width: "80px" }}
-            alt="logo"
-          /></Link>
+          <Link to='/'>
+            <img
+              className="ml-5"
+              src={logo}
+              style={{ width: "80px" }}
+              alt="logo"
+            />
+          </Link>
         </div>
         <div className="flex items-center space-x-4">
           <span>
@@ -44,7 +46,8 @@ const MobileNavbar = () => {
       </div>
       {/* menu bar toggle */}
       {isMenuOpen && (
-        <div className="w-[350px] absolute top-0 left-0 h-screen bg-gray-50 rounded-tr-3xl rounded-br-3xl">
+    <div className="w-[350px] absolute top-0 left-0 h-screen bg-gray-50 rounded-tr-3xl rounded-br-3xl animate-fadeInRight transform translatex(-180px) transition-transform duration-50 ease-in-out">
+
           <div className="flex justify-between mt-8">
             <img
               className="ml-5"
@@ -95,14 +98,13 @@ const MobileNavbar = () => {
           </div>
         </div>
       )}
-      <div className="px-7  mt-16"> 
-      <div>
-        <h1 className='text-[#000000] text-2xl'>Upload CSV</h1>
-      </div>
-      <div className="mt-10">
-      <Sheetone />
-      </div>
-   
+      <div className="px-7  mt-5"> 
+        <div>
+          <h1 className='text-[#000000] text-xl'>Upload CSV</h1>
+        </div>
+        <div className="mt-10">
+          <Sheetone />
+        </div>
       </div>
     </div>
   );
