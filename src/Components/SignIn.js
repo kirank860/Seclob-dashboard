@@ -136,13 +136,13 @@ const SignIn = () => {
    </div>
         </div>
         {/* social media icons for mobile devices */}
-      <div className='mx-auto mt-20'>
+      <div className='mx-auto mt-20 pb-10'>
       <div className='flex justify-center  space-x-5  '>
     <div> <img src={githubmobile}></img> </div>
     <div> <img src={twittermobile}></img> </div>
     <div> <img src={linkedinmobile}></img> </div>
     <div> <img src={discordmobile}></img> </div>
-    h1;d;s
+
     </div>
       </div>
        </div>
