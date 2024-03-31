@@ -8,11 +8,14 @@ import calender from "../assets/Calendar.svg"
 import notification from "../assets/Notification.svg"
 import settings from "../assets/Setting.svg"
 import Navbar from '../Navbar'
+import MobileNavbar from '../MobileNavbar'
 
 const Upload = () => {
   return (
-    <div className='flex  bg-[#F5F5F5] h-screen'>
-   <div className='bg-white w-[220px] flex justify-center'>
+    <>
+    
+    <div className='hidden sm:flex md:flex lg:flex bg-[#F5F5F5] h-screen'>
+   <div className='bg-white sm:w-[240px]  lg:w-[220px]  md:w-[220px] sm:flex md:flex lg:flex justify-center'>
     <div className=' mt-10 '>
       <img src={logo2}/>
       <ul className='ml-[-20px] mt-5'>
@@ -29,6 +32,11 @@ const Upload = () => {
    {/* navbar--- */}
    <Navbar/>
     </div>
+    <div className='md:hidden lg:hidden sm:hidden'>
+    <MobileNavbar/>
+    </div>
+    </>
+
   )
 }
 
